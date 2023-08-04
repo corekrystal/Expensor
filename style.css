@@ -173,3 +173,24 @@
   .list li:hover .delete-btn {
     opacity: 1;
   }
+  /* Media Queries for Responsiveness */
+@media only screen and (max-width: 600px) {
+  .box {
+    max-width: 100%;
+  }
+  
+  .inc-exp-container > div {
+    flex-basis: 45%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .inc-exp-container > div {
+    flex-basis: 100%;
+  }
+}
+
+
+
+
+
